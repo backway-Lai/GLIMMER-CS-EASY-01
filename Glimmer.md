@@ -59,7 +59,7 @@
   3. **运算逻辑符**：`&&`表达同时成立（与）；`||`表达存在一个成立（或）；`!`表达非，即取反，结果只有真或假（0或1）。[^2]
   [^2]:此处的`!`是有点与我认知不一样的，我以为会与!=含义类似，代表一种不等于，但实际上它代表着仅仅只有取反，类似于命题的非，运算结果的0/1有点感觉反直觉。
 
-- ![part2小题代码地址](https://github.com/backway-Lai/GLIMMER-CS-EASY-01/edit/main/part2.c)实测截图：![1](https://github.com/backway-Lai/GLIMMER-CS-EASY-01/main/images/screen-shot7.png)
+- ![part2小题代码地址](https://github.com/backway-Lai/GLIMMER-CS-EASY-01/edit/main/part2.c)实测截图：![1](https://github.com/backway-Lai/GLIMMER-CS-EASY-01/raw/main/images/screen-shot7.png)
 - 逻辑其实很好理解，需要一个循环，循环内容是输出-输入-记录，而判断条件确实一个我原先不熟悉的：用户直接输入。因此我一开始就错了很多次，一开始是不清楚char的规范，在scanf中多余的使用了&，还有就是字符串内容相等要用string.h，一开始我把它写成了ans == "yes"的形式。)
 
 ## Part3-函数
