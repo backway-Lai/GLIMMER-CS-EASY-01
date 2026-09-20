@@ -61,7 +61,7 @@
 
 - ![part2小题代码地址](https://github.com/backway-Lai/GLIMMER-CS-EASY-01/edit/main/part2.c)
   实测截图：![1](https://github.com/backway-Lai/GLIMMER-CS-EASY-01/raw/main/images/screen-shot7.png)
-  逻辑其实很好理解，需要一个循环，循环内容是输出-输入-记录，而判断条件确实一个我原先不熟悉的：用户直接输入。因此我一开始就错了很多次，一开始是不清楚char的规范，在scanf中多余的使用了&，还有就是字符串内容相等要用string.h，一开始我把它写成了ans == "yes"的形式。)
+  逻辑其实很好理解，需要一个循环，循环内容是输出-输入-记录，而判断条件确实一个我原先不熟悉的：用户直接输入。因此我一开始就错了很多次，一开始是不清楚char的规范，在scanf中多余的使用了&声明地址，还有就是字符串内容相等要引用string.h，一开始我把它写成了ans == "yes"的形式。（最开始我选择避开输入字符，让用户输入0/1来代表是否继续，确认代码其他部分没问题后再解决输入字符的问题）
 
 ## Part3-函数
 
